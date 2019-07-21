@@ -1,5 +1,6 @@
 int servopin=4;// first code
 int myangle;//����Ƕȱ���
+//yes it is.
 int pulsewidth;//�����������
 int val;
 void servopulse(int servopin,int myangle)//����һ�����庯��
