@@ -1,4 +1,4 @@
-int servopin=4;//�������ֽӿ�9 �����ŷ�����ź���
+int servopin=4;// first code
 int myangle;//����Ƕȱ���
 int pulsewidth;//�����������
 int val;
@@ -18,7 +18,7 @@ Serial.println("servo=o_seral_simple ready" ) ;
 }
 void loop()//��0 ��9 ����ת��Ϊ0 ��180 �Ƕȣ�����LED ��˸��Ӧ���Ĵ���
 {
-val=Serial.read();//��ȡ���ж˿ڵ�ֵ
+val=Serial.read();//
 if(val>'0'&&val<='9')
 {
 val=val-'0';//��������ת��Ϊ��ֵ����
