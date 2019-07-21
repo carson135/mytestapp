@@ -1,3 +1,5 @@
+// update form hithub
+
 int servopin=4;// first code
 int myangle;//����Ƕȱ���
 int pulsewidth;//�����������
